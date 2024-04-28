@@ -1,44 +1,25 @@
-import { useState } from "react";
 import "./App.css";
+import { useState } from "react";
 import d20 from "../src/imgs/d20_green.png";
+import quotes from "./Quotes";
+import choreList from "./Chores";
 
 function App() {
   const [rngChore, setRngChore] = useState("");
+  const [rngQuote, setRngQuote] = useState("");
   const [isRolling, setIsRolling] = useState(false);
   const [showDice, setShowDice] = useState(true);
-
-  const choreList = [
-    "Laundry",
-    "Sweep Floors",
-    "Wipe Surfaces",
-    "Dishes",
-    "Put Laundry Away",
-    "Mop Laundry Room",
-    "Sweep Laundry Room",
-    "Clean Kruig",
-    "Clean Nightstands",
-    "Vacuum",
-    "Put Shoes Away",
-    "Dust",
-    "Sweep Bathroom",
-    "Clean Toilet",
-    "Clean Bathroom Counter",
-    "Clean out fridge",
-    "Put Dishes Away",
-    "Mop Main Floor",
-    "Clean Tub",
-    "Wash Sheets",
-    "Clean Closet",
-    "Make Bed",
-  ];
 
   const randomChore = () => {
     setIsRolling(true);
     setTimeout(() => {
       setIsRolling(false);
       const randomIndex = Math.floor(Math.random() * choreList.length);
+      const randomQuoteIndex = Math.floor(Math.random() * quotes.length);
       const randomChoreChosen = choreList[randomIndex];
+      const randomQuoteChosen = quotes[randomQuoteIndex];
       setRngChore(randomChoreChosen);
+      setRngQuote(randomQuoteChosen);
       setShowDice(false);
     }, 2000);
   };
@@ -62,6 +43,9 @@ function App() {
           <div className="chore-result">
           <p className='chosen-chore'>{rngChore}!</p>
           <button className="reset-button" onClick={() => window.location.reload()}>Reset</button>
+          </div>
+          <div className="quote-container">
+          <p className="quote-text">{rngQuote}</p>
           </div>
       </div>
         </>
