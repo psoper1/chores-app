@@ -1,5 +1,6 @@
 {
   "name": "chores-app",
+  "homepage": "https://psoper1.github.io/chores-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
