@@ -18,7 +18,8 @@ const quotes = [
     '"It isn\'t what we say or think that defines us, but what we do." - Jane Austen, Sense and Sensibility',
     '"Silly things do cease to be silly if they are done by sensible people in an impudent way." - Emma',
     '"Laugh as much as you choose, but you will not laugh me out of my opinion." - Jane Austen, Pride and Prejudice',
-    '"I am the happiest creature in the world. Perhaps other people have said so before, but not one with such justice." - Elizabeth Bennet, Pride and Prejudice'
+    '"I am the happiest creature in the world. Perhaps other people have said so before, but not one with such justice." - Elizabeth Bennet, Pride and Prejudice',
+    '"I love you +1" - Preston Soper'
 ]
 
 export default quotes;
