@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.671c8a94.css",
-    "main.js": "/static/js/main.5f243e66.js",
-    "static/js/453.fe0ce9db.chunk.js": "/static/js/453.fe0ce9db.chunk.js",
-    "static/media/d20_green.png": "/static/media/d20_green.7f52cc33267d762fde1e.png",
-    "index.html": "/index.html",
-    "main.671c8a94.css.map": "/static/css/main.671c8a94.css.map",
-    "main.5f243e66.js.map": "/static/js/main.5f243e66.js.map",
-    "453.fe0ce9db.chunk.js.map": "/static/js/453.fe0ce9db.chunk.js.map"
+    "main.css": "/chores-app/static/css/main.671c8a94.css",
+    "main.js": "/chores-app/static/js/main.14c3252b.js",
+    "static/js/453.fe0ce9db.chunk.js": "/chores-app/static/js/453.fe0ce9db.chunk.js",
+    "static/media/d20_green.png": "/chores-app/static/media/d20_green.7f52cc33267d762fde1e.png",
+    "index.html": "/chores-app/index.html",
+    "main.671c8a94.css.map": "/chores-app/static/css/main.671c8a94.css.map",
+    "main.14c3252b.js.map": "/chores-app/static/js/main.14c3252b.js.map",
+    "453.fe0ce9db.chunk.js.map": "/chores-app/static/js/453.fe0ce9db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.671c8a94.css",
-    "static/js/main.5f243e66.js"
+    "static/js/main.14c3252b.js"
   ]
 }
