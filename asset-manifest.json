@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/chores-app/static/css/main.f95f8227.css",
-    "main.js": "/chores-app/static/js/main.fae0ffa9.js",
+    "main.js": "/chores-app/static/js/main.d19f8825.js",
     "static/js/453.fe0ce9db.chunk.js": "/chores-app/static/js/453.fe0ce9db.chunk.js",
     "static/media/d20_green.png": "/chores-app/static/media/d20_green.7f52cc33267d762fde1e.png",
     "index.html": "/chores-app/index.html",
     "main.f95f8227.css.map": "/chores-app/static/css/main.f95f8227.css.map",
-    "main.fae0ffa9.js.map": "/chores-app/static/js/main.fae0ffa9.js.map",
+    "main.d19f8825.js.map": "/chores-app/static/js/main.d19f8825.js.map",
     "453.fe0ce9db.chunk.js.map": "/chores-app/static/js/453.fe0ce9db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f95f8227.css",
-    "static/js/main.fae0ffa9.js"
+    "static/js/main.d19f8825.js"
   ]
 }
