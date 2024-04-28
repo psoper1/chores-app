@@ -56,16 +56,16 @@ function App() {
       />
       </div>
     }
-      <div className="text-container">
       {rngChore !== "" && (
         <>
+      <div className="text-container">
           <div className="chore-result">
           <p className='chosen-chore'>{rngChore}!</p>
           <button className="reset-button" onClick={() => window.location.reload()}>Reset</button>
           </div>
+      </div>
         </>
       )}
-      </div>
     </>
   );
 }
