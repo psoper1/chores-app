@@ -1,0 +1,69 @@
+@keyframes roll {
+  0% {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  25% {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+  50% {
+    transform: rotateX(720deg) rotateY(720deg);
+  }
+  75% {
+    transform: rotateX(1080deg) rotateY(1080deg);
+  }
+  100% {
+    transform: rotateX(1440deg) rotateY(1440deg);
+  }
+}
+
+body {
+  background-color: rgb(53, 69, 49);
+}
+
+.randomizerImage.roll {
+  animation: roll 2s infinite;
+  max-height: 40vh;
+}
+
+.randomizerImage {
+  display: flex;
+  max-height: 40vh;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chore-result {
+  border: solid rgb(216, 216, 216) 2px;
+  padding: 80px;
+  border-radius: 50px;
+  font-family: "Abel", sans-serif;
+  color: white;
+  background-color: rgb(83, 99, 80);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.reset-button {
+  background-color: #04aa6d; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+}
